@@ -21,8 +21,8 @@ router.get('/', (req, res, next) => {
         html: `You are receiving this email because you(maybe someone else) wanted to change your password.\nIf it was not you, ignore this email.`,
         attachments: [
             {   // file on disk as an attachment
-                filename: 'teste.txt',
-                path: './files/anexo.txt' // stream this file
+                filename: 'icon.png',
+                path: './files/icon.png' // stream this file
             }
          ]
       };
